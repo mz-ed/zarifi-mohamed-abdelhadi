@@ -49,10 +49,10 @@ export const portfolioData = {
     { title: "Methodologies & Tools", skills: ["Agile/Scrum", "Figma", "Jira", "Postman"] },
   ],
   projects: [
-    { title: "Smart AI Platform for Hospitals", description: "Production ML pipeline serving automated clinical diagnostic metrics and prognostic insight tracking.", tags: ["AI", "ML", "Healthcare", "Python", "FastAPI"] },
-    { title: "Internship Finder & Manager — Medical Portals", description: "Multi-tier microservices portal matching medical candidates to specific residency training tracks.", tags: ["Microservices", "NestJS", "React", "PostgreSQL"] },
-    { title: "Drug Stocking & Logistics Ecosystem", description: "B2B supply orchestration architecture linking pharmacies to distributed manufacturing pipelines.", tags: ["B2B", "Node.js", "MongoDB", "Kafka"] },
-    { title: "Hospital ERP & Warehouse Automation Platforms", description: "Unified database setups built for localized physical inventory synchronization and hospital ops tracking.", tags: ["ERP", "PostgreSQL", "Django", "Automation"] },
+    { title: "Smart AI Platform for Hospitals", description: "Production ML pipeline serving automated clinical diagnostic metrics and prognostic insight tracking.", tags: ["AI", "ML", "Healthcare", "Python", "FastAPI"], link: "https://github.com/pld-organization" },
+    { title: "Internship Finder & Manager — Medical Portals", description: "Multi-tier microservices portal matching medical candidates to specific residency training tracks.", tags: ["Microservices", "NestJS", "React", "PostgreSQL"], link: "https://github.com/medical-interships" },
+    { title: "Drug Stocking & Logistics Ecosystem", description: "B2B supply orchestration architecture linking pharmacies to distributed manufacturing pipelines.", tags: ["B2B", "Node.js", "MongoDB", "Kafka"], link: "https://github.com/MedSupply-Manager" },
+    { title: "Hospital ERP & Warehouse Automation Platforms", description: "Unified database setups built for localized physical inventory synchronization and hospital ops tracking.", tags: ["ERP", "PostgreSQL", "Django", "Automation"], link: "https://github.com/mz-ed/hospital_managment-system" },
   ],
   aiResearch: [
     { title: "3D Segmentation of Lung Cancer", description: "3D volumetric multi-planar segmentation array built natively in PyTorch for precise target cell-mass parsing.", tags: ["PyTorch", "3D Segmentation", "Medical Imaging"] },

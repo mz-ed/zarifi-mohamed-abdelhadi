@@ -20,7 +20,8 @@ export default function Projects() {
             >
               <div className="project-top">
                 <FolderIcon />
-                <ExternalIcon />
+                {p.link && <a href={p.link} target="_blank" rel="noopener noreferrer"><ExternalIcon /></a>}
+                {!p.link && <ExternalIcon />}
               </div>
               <h3>{p.title}</h3>
               <p>{p.description}</p>
