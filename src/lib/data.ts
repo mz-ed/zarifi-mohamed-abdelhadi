@@ -1,6 +1,6 @@
 export const portfolioData = {
   name: "Zarifi Mohamed Abdelhadi",
-  title: "Full Stack Developer & AI Engineer",
+  title: "Full Stack Developer & AI Engineer — Systems Designer",
   email: "mohamedzarifi12@gmail.com",
   socials: {
     linkedin: "m-zarifi",
