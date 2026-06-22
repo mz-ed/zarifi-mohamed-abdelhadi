@@ -5,7 +5,7 @@ export const portfolioData = {
   socials: {
     linkedin: "m-zarifi",
     github: "mz-ed",
-    kaggle: "kaggle",
+    kaggle: "mohamedzarifi",
   },
   about: [
     "4th-year State Engineer student in Computer Science (Software Engineering) at University M'Hamed Bougara. Passionate about full-stack development, scalable architecture, and applied AI in healthcare.",
