@@ -29,7 +29,7 @@ export default function Contact() {
               <a href={`https://linkedin.com/in/${portfolioData.socials.linkedin}`} target="_blank" className="contact-link">
                 <LinkedinIcon /> LinkedIn
               </a>
-              <a href={`https://${portfolioData.socials.github}`} target="_blank" className="contact-link">
+              <a href={`https://github.com/${portfolioData.socials.github}`} target="_blank" className="contact-link">
                 <GithubIcon /> GitHub
               </a>
             </div>
