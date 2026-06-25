@@ -61,8 +61,8 @@ export const portfolioData = {
   ],
   languages: [
     { name: "Arabic", level: "Native", percentage: 100 },
-    { name: "French", level: "Professional Working Proficiency", percentage: 85 },
-    { name: "English", level: "Professional Working Proficiency", percentage: 80 },
+    { name: "French", level: "Professional Working Proficiency", percentage: 60 },
+    { name: "English", level: "Professional Working Proficiency", percentage: 90 },
   ],
   philosophy: "Thriving on adaptability and integrity — embracing rapid technology shifts to write clean, scalable core infrastructure that brings genuine real-world utility.",
 }
