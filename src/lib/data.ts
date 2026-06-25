@@ -41,28 +41,154 @@ export const portfolioData = {
     },
   ],
   skillCategories: [
-    { title: "Languages & Frameworks", skills: ["JavaScript", "TypeScript", "Python", "Java", "Kotlin", "C++", "React", "Next.js", "Node.js", "Express", "NestJS", "FastAPI", "Django", "Spring Boot"] },
-    { title: "AI & Machine Learning", skills: ["TensorFlow", "PyTorch", "Keras", "Computer Vision", "Pandas", "NumPy", "OpenCV"] },
-    { title: "Cloud & DevOps", skills: ["Docker", "Kubernetes", "CI/CD", "Render", "Railway", "Vercel", "Netlify", "Cloudflare", "Git", "GitHub Actions", "Linux"] },
-    { title: "Databases & Systems", skills: ["PostgreSQL", "MySQL", "MongoDB", "Redis", "Neo4j", "Cassandra", "Kafka", "Prisma", "Mongoose", "TypeORM"] },
-    { title: "Mobile & Infrastructure", skills: ["Kotlin", "Jetpack Compose", "Maven", "Gradle", "ngrok"] },
-    { title: "Methodologies & Tools", skills: ["Agile/Scrum", "Figma", "Jira", "Postman"] },
+    {
+      title: "Languages & Frameworks",
+      skills: [
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "Java",
+        "Kotlin",
+        "C++",
+        "React",
+        "Next.js",
+        "Node.js",
+        "Express",
+        "NestJS",
+        "FastAPI",
+        "Django",
+        "Spring Boot",
+      ],
+    },
+    {
+      title: "AI & Machine Learning",
+      skills: [
+        "TensorFlow",
+        "PyTorch",
+        "Keras",
+        "Computer Vision",
+        "Pandas",
+        "NumPy",
+        "OpenCV",
+      ],
+    },
+    {
+      title: "Cloud & DevOps",
+      skills: [
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "Render",
+        "Railway",
+        "Vercel",
+        "Netlify",
+        "Cloudflare",
+        "Git",
+        "GitHub Actions",
+        "Linux",
+      ],
+    },
+    {
+      title: "Databases & Systems",
+      skills: [
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Redis",
+        "Neo4j",
+        "Cassandra",
+        "Kafka",
+        "Prisma",
+        "Mongoose",
+        "TypeORM",
+      ],
+    },
+    {
+      title: "Mobile & Infrastructure",
+      skills: ["Kotlin", "Jetpack Compose", "Maven", "Gradle", "ngrok"],
+    },
+    {
+      title: "Methodologies & Tools",
+      skills: ["Agile/Scrum", "Figma", "Jira", "Postman"],
+    },
   ],
   projects: [
-    { title: "Smart AI Platform for Hospitals", description: "Production ML pipeline serving automated clinical diagnostic metrics and prognostic insight tracking.", tags: ["AI", "ML", "Healthcare", "Python", "FastAPI"], link: "https://github.com/pld-organization" },
-    { title: "Internship Finder & Manager — Medical Portals", description: "Multi-tier microservices portal matching medical candidates to specific residency training tracks.", tags: ["Microservices", "NestJS", "React", "PostgreSQL"], link: "https://github.com/medical-interships" },
-    { title: "Drug Stocking & Logistics Ecosystem", description: "B2B supply orchestration architecture linking pharmacies to distributed manufacturing pipelines.", tags: ["B2B", "Node.js", "MongoDB", "Kafka"], link: "https://github.com/MedSupply-Manager" },
-    { title: "Hospital ERP & Warehouse Automation Platforms", description: "Unified database setups built for localized physical inventory synchronization and hospital ops tracking.", tags: ["ERP", "PostgreSQL", "Django", "Automation"], link: "https://github.com/mz-ed/hospital_managment-system" },
+    {
+      title: "Smart AI Platform for Hospitals",
+      description:
+        "Production ML pipeline serving automated clinical diagnostic metrics and prognostic insight tracking.",
+      tags: [
+        "AI",
+        "ML",
+        "Healthcare",
+        "Python",
+        "FastAPI",
+        "Kotlin",
+        "Microservices",
+        "Docker",
+        "Redis",
+        "MongoDB",
+      ],
+      link: "https://github.com/pld-organization",
+    },
+    {
+      title: "Internship Finder & Manager — Medical Portals",
+      description:
+        "Multi-tier microservices portal matching medical candidates to specific residency training tracks.",
+      tags: ["Microservices", "NestJS", "React", "MySQL"],
+      link: "https://github.com/medical-interships",
+    },
+    {
+      title: "Drug Stocking & Logistics Ecosystem",
+      description:
+        "B2B supply orchestration architecture linking pharmacies to distributed manufacturing pipelines.",
+      tags: ["B2B", "Node.js", "MongoDB", "Kafka"],
+      link: "https://github.com/MedSupply-Manager",
+    },
+    {
+      title: "Hospital ERP & Warehouse Automation Platforms",
+      description:
+        "Unified database setups built for localized physical inventory synchronization and hospital ops tracking.",
+      tags: ["ERP", "PostgreSQL", "Django", "Automation"],
+      link: "https://github.com/mz-ed/hospital_managment-system",
+    },
   ],
   aiResearch: [
-    { title: "3D Segmentation of Lung Cancer", description: "3D volumetric multi-planar segmentation array built natively in PyTorch for precise target cell-mass parsing.", tags: ["PyTorch", "3D Segmentation", "Medical Imaging"], link: "https://www.kaggle.com/code/mohamedzarifi/lidc-idri-lung-nodules-segmentation-dice-0-827" },
-    { title: "2D Segmentation for Breast Cancer", description: "Deep neural networks resolving micro-calcification boundaries in high-resolution mammography runs.", tags: ["Deep Learning", "Mammography", "Computer Vision"], link: "https://www.kaggle.com/code/mohamedzarifi/breast-cancer-ct-seg-dice-0-81" },
-    { title: "Multi-Class Medical Classifiers", description: "Transfer-learning classifiers cross-trained on complex clinical diagnostic image sets.", tags: ["Transfer Learning", "Classification", "Clinical AI"], link: "https://www.kaggle.com/code/mohamedzarifi/global-multi-medical-media-files-classifier" },
+    {
+      title: "3D Segmentation of Lung Cancer",
+      description:
+        "3D volumetric multi-planar segmentation array built natively in PyTorch for precise target cell-mass parsing.",
+      tags: ["PyTorch", "3D Segmentation", "Medical Imaging"],
+      link: "https://www.kaggle.com/code/mohamedzarifi/lidc-idri-lung-nodules-segmentation-dice-0-827",
+    },
+    {
+      title: "2D Segmentation for Breast Cancer",
+      description:
+        "Deep neural networks resolving micro-calcification boundaries in high-resolution mammography runs.",
+      tags: ["Deep Learning", "Mammography", "Computer Vision"],
+      link: "https://www.kaggle.com/code/mohamedzarifi/breast-cancer-ct-seg-dice-0-81",
+    },
+    {
+      title: "Multi-Class Medical Classifiers",
+      description:
+        "Transfer-learning classifiers cross-trained on complex clinical diagnostic image sets.",
+      tags: ["Transfer Learning", "Classification", "Clinical AI"],
+      link: "https://www.kaggle.com/code/mohamedzarifi/global-multi-medical-media-files-classifier",
+    },
   ],
   languages: [
     { name: "Arabic", level: "Native", percentage: 100 },
-    { name: "French", level: "Professional Working Proficiency", percentage: 60 },
-    { name: "English", level: "Professional Working Proficiency", percentage: 90 },
+    {
+      name: "French",
+      level: "Professional Working Proficiency",
+      percentage: 60,
+    },
+    {
+      name: "English",
+      level: "Professional Working Proficiency",
+      percentage: 90,
+    },
   ],
-  philosophy: "Thriving on adaptability and integrity — embracing rapid technology shifts to write clean, scalable core infrastructure that brings genuine real-world utility.",
-}
+  philosophy:
+    "Thriving on adaptability and integrity — embracing rapid technology shifts to write clean, scalable core infrastructure that brings genuine real-world utility.",
+};
