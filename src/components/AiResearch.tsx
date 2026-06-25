@@ -18,7 +18,11 @@ export default function AiResearch() {
               transition={{ duration: 0.5, delay: i * 0.1 }}
               className="project-card"
             >
-              <FlaskIcon />
+              <div className="project-top">
+                <FlaskIcon />
+                {p.link && <a href={p.link} target="_blank" rel="noopener noreferrer"><ExternalIcon /></a>}
+                {!p.link && <ExternalIcon />}
+              </div>
               <h3>{p.title}</h3>
               <p>{p.description}</p>
               <div className="project-tags">
@@ -31,6 +35,14 @@ export default function AiResearch() {
         </div>
       </div>
     </section>
+  )
+}
+
+function ExternalIcon() {
+  return (
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--text-muted)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" x2="21" y1="14" y2="3"/>
+    </svg>
   )
 }
 

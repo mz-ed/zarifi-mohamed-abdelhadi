@@ -55,9 +55,9 @@ export const portfolioData = {
     { title: "Hospital ERP & Warehouse Automation Platforms", description: "Unified database setups built for localized physical inventory synchronization and hospital ops tracking.", tags: ["ERP", "PostgreSQL", "Django", "Automation"], link: "https://github.com/mz-ed/hospital_managment-system" },
   ],
   aiResearch: [
-    { title: "3D Segmentation of Lung Cancer", description: "3D volumetric multi-planar segmentation array built natively in PyTorch for precise target cell-mass parsing.", tags: ["PyTorch", "3D Segmentation", "Medical Imaging"] },
-    { title: "2D Segmentation for Breast Cancer", description: "Deep neural networks resolving micro-calcification boundaries in high-resolution mammography runs.", tags: ["Deep Learning", "Mammography", "Computer Vision"] },
-    { title: "Multi-Class Medical Classifiers", description: "Transfer-learning classifiers cross-trained on complex clinical diagnostic image sets.", tags: ["Transfer Learning", "Classification", "Clinical AI"] },
+    { title: "3D Segmentation of Lung Cancer", description: "3D volumetric multi-planar segmentation array built natively in PyTorch for precise target cell-mass parsing.", tags: ["PyTorch", "3D Segmentation", "Medical Imaging"], link: "https://www.kaggle.com/code/mohamedzarifi/lidc-idri-lung-nodules-segmentation-dice-0-827" },
+    { title: "2D Segmentation for Breast Cancer", description: "Deep neural networks resolving micro-calcification boundaries in high-resolution mammography runs.", tags: ["Deep Learning", "Mammography", "Computer Vision"], link: "https://www.kaggle.com/code/mohamedzarifi/breast-cancer-ct-seg-dice-0-81" },
+    { title: "Multi-Class Medical Classifiers", description: "Transfer-learning classifiers cross-trained on complex clinical diagnostic image sets.", tags: ["Transfer Learning", "Classification", "Clinical AI"], link: "https://www.kaggle.com/code/mohamedzarifi/global-multi-medical-media-files-classifier" },
   ],
   languages: [
     { name: "Arabic", level: "Native", percentage: 100 },
