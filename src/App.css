@@ -303,6 +303,17 @@
   border-radius: 4px;
 }
 .proj-tag.alt { color: rgba(96,165,250,0.8); background: rgba(59,130,246,0.05); }
+.badge-ongoing {
+  display: inline-block;
+  padding: 3px 10px;
+  font-size: 11px;
+  font-family: 'Fira Code', monospace;
+  font-weight: 500;
+  color: #f97316;
+  background: rgba(249,115,22,0.1);
+  border: 1px solid rgba(249,115,22,0.2);
+  border-radius: 100px;
+}
 
 /* ===== LANGUAGES ===== */
 .lang-list { display: flex; flex-direction: column; gap: 16px; }

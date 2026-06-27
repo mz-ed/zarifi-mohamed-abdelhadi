@@ -20,12 +20,17 @@ export default function Projects() {
             >
               <div className="project-top">
                 <FolderIcon />
-                {p.link && (
-                  <a href={p.link} target="_blank" rel="noopener noreferrer">
-                    <ExternalIcon />
-                  </a>
-                )}
-                {!p.link && <ExternalIcon />}
+                <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
+                  {p.status === "ongoing" && (
+                    <span className="badge-ongoing">Ongoing</span>
+                  )}
+                  {p.link && (
+                    <a href={p.link} target="_blank" rel="noopener noreferrer">
+                      <ExternalIcon />
+                    </a>
+                  )}
+                  {!p.link && <ExternalIcon />}
+                </div>
               </div>
               <h3>{p.title}</h3>
               <p>{p.description}</p>

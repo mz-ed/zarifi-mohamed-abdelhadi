@@ -152,6 +152,14 @@ export const portfolioData = {
       tags: ["ERP", "PostgreSQL", "Django", "Automation"],
       link: "https://github.com/mz-ed/hospital_managment-system",
     },
+    {
+      title: "R3DO — Interactive 3D Ray Tracer",
+      description:
+        "A real-time CPU ray tracer rendered into an X11 window. Navigate a 10×10×10 grid of abstract objects (spheres, boxes) using keyboard and mouse controls.",
+      tags: ["Gaming Engine", "C++", "Computer Graphics"],
+      link: "https://github.com/mz-ed/R3DO",
+      status: "ongoing",
+    },
   ],
   aiResearch: [
     {
